@@ -18,10 +18,10 @@ def speak_to_grandma ('I LOVE YOU GRANDMA!')
     
     puts 'I LOVE YOU TOO SUNNY!'
     
-  elsif speak_to_grandma.downcase
-  puts 'HUH?! SPEAK UP, SONNY!'
+    elsif speak_to_grandma.downcase
+    puts 'HUH?! SPEAK UP, SONNY!'
   
-elsif speak_to_grandma.upcase
-puts 'NO, NOT SINCE 1938!'
+    elsif speak_to_grandma.upcase
+    puts 'NO, NOT SINCE 1938!'
     
 end
