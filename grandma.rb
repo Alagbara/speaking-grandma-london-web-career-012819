@@ -20,10 +20,10 @@ def speak_to_grandma ( phrase = 'I LOVE YOU GRANDMA!')
      puts 'I LOVE YOU TOO SUNNY!'
 
     
-    elsif speak_to_grandma.downcase
+    elsif phrase.downcase
     puts 'HUH?! SPEAK UP, SONNY!'
   
-    else speak_to_grandma.upcase
+    else phrase.upcase
     puts 'NO, NOT SINCE 1938!'
   end
 end
